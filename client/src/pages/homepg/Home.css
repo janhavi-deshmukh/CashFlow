@@ -1,0 +1,150 @@
+.navHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(3, 43, 83);
+    
+}
+
+.logoName{
+    flex:1;
+    padding: 1rem;
+    color:rgb(145, 214, 242); 
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.effect{
+    transition: font-size 0.5s ease-in;
+}
+
+.effect:hover{
+    font-size: 22px; 
+    cursor: pointer;
+}
+
+.rightBox{
+    
+    display: flex;
+    justify-content: center;
+    justify-items: flex-end;
+    padding-right: 0px;
+
+}
+
+.username{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 400px;
+    height: 40px;
+    border-bottom: 2px solid transparent;
+    transition: 1s all linear;
+    margin-bottom: 5px;
+    margin-top: 7px;
+    margin-left: 5px;
+    color:white;
+    padding: 1em;
+}
+
+.username:hover{
+    border-bottom: 2px solid rgb(145, 214, 242);
+    cursor: pointer;
+}
+
+.buttondesign{
+    border: none;
+    border-bottom: 2px solid transparent ;
+    transition: 1s all linear;
+    background-color:  rgba(3, 43, 83, 0.412);
+    color: white;
+    
+    margin: 10px;
+    height: 35px;
+    width: 60px;
+    font-weight: 400px;
+}
+
+.buttondesign:hover{
+    border-bottom: 2px solid rgb(145, 214, 242);
+}
+
+
+.filters{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    box-shadow: 0 0 3px grey;
+    
+    background-color: rgb(208, 234, 244) ;
+}
+
+.filterRightBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.leftBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first{
+    margin-right: 20px;
+}
+
+.addButton{
+    border:1px solid rgba(0, 0, 0, 0.066);
+    height: 45px;
+    width: 45px;
+    border-radius:50%;
+    background-color: rgb(155, 217, 241) ;
+}
+
+
+/*antdicons */
+.effectPointer{
+    cursor: pointer;
+}
+
+.content{
+   
+}
+
+.progressdistance{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.progressConatiner{
+    margin-top: 10px;
+}
+
+.catBox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 35px;
+    background-color: rgb(208, 230, 239);
+    margin-bottom:5px;
+    font-weight: 400px;
+}
+
+.card-header{
+    background-color: rgb(208, 230, 239);
+    font-size: large;
+    color: rgb(5, 18, 42);
+    font-weight: bold;
+
+}

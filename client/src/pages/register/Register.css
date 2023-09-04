@@ -1,0 +1,31 @@
+.mainBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(218, 232, 246);
+  }
+
+.register-page{
+    flex:1;
+    padding: 1rem;
+    border: 1px solidb black;
+}
+
+ .right-img{
+    flex:1;
+    background-color:rgb(167, 167, 235);
+    height:100vh;
+    width: 100vh;
+    padding: 2rem;
+} 
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+  .custom-link{
+    padding-top: 2em;
+    text-decoration: none;
+  }
